@@ -1,0 +1,16 @@
+name: PlayerHealthWatcher
+main: me.hawkeye.minecraft.bukkitplugins.PlayerHealthWatcher.PlayerHealthWatcher
+version: 0.1
+description: A bukkit server plugin for notifying players who play excessively long.
+author: Stanley Hawkeye
+commands:
+    mph:
+        description: MinecraftPlayerHealth command
+
+permissions:
+    mph.list:
+        default: OP
+        description: Allows you to list online times of players
+    mph.me:
+        default: true
+        description: Allows a player to display how long he/she has been online        
